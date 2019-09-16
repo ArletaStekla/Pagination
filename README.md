@@ -2,8 +2,8 @@
 
 ## To do:
 
-- [ ] Clean code
+- [x] Clean code
 - [ ] Update description
-- [ ] Add documentation
 - [ ] Add comments
-- [ ] Add styles
+- [x] Add styles
+- [ ] Add unit tests
