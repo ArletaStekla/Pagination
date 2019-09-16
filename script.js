@@ -1,5 +1,5 @@
 ﻿function createPagination() {
-    var element = document.getElementsByTagName("li"),
+    let element = document.getElementsByTagName("li"),
         index;
 
     for (index = element.length - 1; index >= 0; index--) {
@@ -14,9 +14,10 @@
         var node = document.createElement("LI");
         var textnode = document.createTextNode("Page " + page);
         node.appendChild(textnode);
-        document.getElementById("myList").appendChild(node);
+        document.getElementById("pagesContent").appendChild(node);
     }
-    var listObj = new List('test-list', {
+     
+    let listObj = new List('container', {
         page: 1,
         pagination: {
             innerWindow: offset
