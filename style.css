@@ -1,0 +1,46 @@
+﻿body {
+    font-family: Arial;
+}
+
+.pagination li {
+    display: inline-block;
+    padding: 10px 16px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.pagination li.active {
+    background-color: #97c8cc;
+    color: white;
+}
+
+.pagination li:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.pagination li a {
+    text-decoration: none;
+    color: black;
+}
+
+div {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+input[type=text] {
+    padding: 4px 10px;
+    margin: 8px 4px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #97c8cc;
+    color: black;
+    font-size: 16px;
+    border: none;
+    margin: 8px 0;
+}
